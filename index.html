@@ -34,24 +34,35 @@
             <div class="container">
                 <h2>Sản Phẩm Nổi Bật</h2>
                 <div class="product-grid">
-                    <div class="product-card">
-                        <img src="https://via.placeholder.com/300x300.png?text=Bỉm+Huggies" alt="Bỉm Huggies">
-                        <h3>Bỉm Huggies Platinum</h3>
-                        <p class="price">350.000 VNĐ</p>
-                        <button>Thêm vào giỏ</button>
+                    <div class="product-card" 
+    data-name="Bỉm Huggies Platinum" 
+    data-price="350.000 VNĐ" 
+    data-img="https://via.placeholder.com/400x400.png?text=Bỉm+Huggies" 
+    data-desc="Bỉm Huggies Platinum với công nghệ ZeroFeel siêu mỏng, mang lại cảm giác thoải mái tối đa cho bé yêu. Thấm hút vượt trội suốt 12 giờ.">
+    <img src="https://via.placeholder.com/300x300.png?text=Bỉm+Huggies" alt="Bỉm Huggies">
+    <h3>Bỉm Huggies Platinum</h3>
+    <p class="price">350.000 VNĐ</p>
+    <button class="view-details-btn">Xem chi tiết</button> </div>
                     </div>
-                    <div class="product-card">
-                        <img src="https://via.placeholder.com/300x300.png?text=Sữa+Meiji" alt="Sữa Meiji">
-                        <h3>Sữa bột Meiji 0-1 tuổi</h3>
-                        <p class="price">520.000 VNĐ</p>
-                        <button>Thêm vào giỏ</button>
+                    <div class="product-card" 
+    data-name="Bỉm Huggies Platinum" 
+    data-price="350.000 VNĐ" 
+    data-img="https://via.placeholder.com/400x400.png?text=Bỉm+Huggies" 
+    data-desc="Bỉm Huggies Platinum với công nghệ ZeroFeel siêu mỏng, mang lại cảm giác thoải mái tối đa cho bé yêu. Thấm hút vượt trội suốt 12 giờ.">
+    <img src="https://via.placeholder.com/300x300.png?text=Bỉm+Huggies" alt="Bỉm Huggies">
+    <h3>Bỉm Huggies Platinum</h3>
+    <p class="price">350.000 VNĐ</p>
+    <button class="view-details-btn">Xem chi tiết</button> </div>
                     </div>
-                    <div class="product-card">
-                        <img src="https://via.placeholder.com/300x300.png?text=Xe+Đẩy" alt="Xe Đẩy">
-                        <h3>Xe đẩy gấp gọn V-Baby</h3>
-                        <p class="price">1.250.000 VNĐ</p>
-                        <button>Thêm vào giỏ</button>
-                    </div>
+                    <div class="product-card" 
+    data-name="Bỉm Huggies Platinum" 
+    data-price="350.000 VNĐ" 
+    data-img="https://via.placeholder.com/400x400.png?text=Bỉm+Huggies" 
+    data-desc="Bỉm Huggies Platinum với công nghệ ZeroFeel siêu mỏng, mang lại cảm giác thoải mái tối đa cho bé yêu. Thấm hút vượt trội suốt 12 giờ.">
+    <img src="https://via.placeholder.com/300x300.png?text=Bỉm+Huggies" alt="Bỉm Huggies">
+    <h3>Bỉm Huggies Platinum</h3>
+    <p class="price">350.000 VNĐ</p>
+    <button class="view-details-btn">Xem chi tiết</button> </div>
                      </div>
             </div>
         </section>
@@ -64,5 +75,15 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <div id="product-modal" class="modal-overlay modal-hidden">
+    <div class="modal-content">
+        <button class="modal-close-btn">&times;</button>
+        <img id="modal-img" src="" alt="Hình ảnh sản phẩm">
+        <h2 id="modal-name"></h2>
+        <p id="modal-price" class="price"></p>
+        <p id="modal-desc"></p>
+        <button>Thêm vào giỏ hàng</button>
+    </div>
+</div>
 </body>
 </html>
